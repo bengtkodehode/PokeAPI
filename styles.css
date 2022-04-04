@@ -99,6 +99,7 @@ body {
     width: 350px;
     padding-left: 10px;
     line-height: 25px;
+    user-select: none;
     bottom: 11%;
     left: 50%;
     transform: translate(-50%, -11%);
