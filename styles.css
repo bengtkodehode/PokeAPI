@@ -70,6 +70,9 @@ body {
     margin: 0;
     
 }
+#nextPokemon{
+    cursor: pointer;
+}
 
 .pokedex {
     width: 370px;
