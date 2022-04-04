@@ -1,0 +1,13 @@
+Use the PokéAPI (pokeapi.co) to make one more or api calls. You will need to render a “PokeCard” component.  This will need to include:
+The name of a pokemon
+It’s id
+An img
+A description
+
+Start by seeing if you can use fetch, to get the correct data.  We’ve been practicing rendering things with JS so now we just need to apply these concepts with the data we’ve pulled.
+
+It might be easiest to see if you can get a single id to render.  Once that’s done, a name. If that works, you’re off to the races!
+
+Style it up to a point where it’s presentable and you’re done!
+
+Next week, we will continue the challenge but making a search bar for users to search for a specific pokemon and play around with rendering many Pokemon at the same time as well!

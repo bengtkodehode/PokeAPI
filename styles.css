@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ef534f ;
+    background-image: url(./Images/bkg.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerImg {
+    display: block;
+    margin: 8px auto;
+    width: 170px;
+}
+
+.one {
+    margin: 0 auto;
+    width: 150px;
+    transform: scaleX(-1);
+}
+.one:hover {
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.two {
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+
+.three {
+    margin-top: 30px;
+}
+
+
+.seven {
+    max-width: 100%;
+}
+
+.eight {
+    font-size: 0.6rem;
+    padding: 12px 0 0 25px;
+}
+
+.two,
+.three,
+.four,
+.five,
+.six,
+.description,
+.pokeButtonText {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 25px;
+}
+
+.three,
+.four,
+.five,
+.six {
+    padding-left: 20px;
+    margin: 0;
+    
+}
+
+.pokedex {
+    width: 370px;
+    height: 370px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    background-color: #F5C7D0;
+}
+
+.pokebutton {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, -8%);
+}
+
+.pokeButtonText {
+    position: absolute;
+    width: 350px;
+    padding-left: 10px;
+    line-height: 25px;
+    bottom: 11%;
+    left: 50%;
+    transform: translate(-50%, -11%);
+}
+
+.wrapper {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+    .one {
+        grid-column: 1 ;
+        grid-row: 1 / 4;
+    }
+    .two {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .three {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .four {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .five {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .six {
+        grid-column: 2;
+        grid-row: 4;
+    }
+    .seven {
+        grid-column: 1 / -1;
+        grid-row: 5;
+    }
